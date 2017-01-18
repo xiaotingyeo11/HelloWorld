@@ -1,0 +1,11 @@
+cd \
+cd C:\Users\Xiaoting\.android\avd
+emulator -avd Nexus_5_API_24
+cd \
+cd C:\Users\Xiaoting\Desktop\HelloWorld
+adb devices
+adb shell
+top -m 15 -n1
+top -m 15 -n 1
+adb shell
+doskey /HISTORY > q1_ps_result.txt
